@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div style="height: 2000px;">
+    <h1 class="categories">Categories</h1>
+    <div class="filter-buttons">
+        <button class="filter-button">All</button>
+        <button class="filter-button">Salads</button>
+        <button class="filter-button">Soups</button>
+        <button class="filter-button">Chicken-Dishes</button>
+        <button class="filter-button">Beef-Dishes</button>
+        <button class="filter-button">Seafood-Dishes</button>
+        <button class="filter-button">Vegetable-Dishes</button>
+        <button class="filter-button">Bits&Bites</button>
+        <button class="filter-button">On-The-Side</button>
+    </div>
+    <div class="container">
+        <p>Filter</p>
+        <div class="slider-container">
+           <p>Spiciness:<!--{{Spice}} (Typescript-ში მუშაობას რომ დავიწყებთ მერე გავაკეთოთ)  --> </p>
+          <input type="range" min="1" max="4" value="1" class="slider" id="myRange">
+        </div>
+        <div class="checkbox1" onclick="toggleCheckbox(this)">Checkbox 1</div>
+        <div class="checkbox2" onclick="toggleCheckbox(this)">Checkbox 2</div>
+        <div class="red-box1">RESET</div>
+        <div class="red-box2">APPLY FILTER</div>
+      </div>
+</div>
+
+<!-- 
+ეს ფუტერი მერე ცალკე კომპონენტშ ჩასვით ბოლოს ეს კოდი შეინახეთ თუგინდათ -->
+
+<div class="footer">
+    <p class="innertetri" >© Step Ordering 2024, All rights reserved</p>
+</div>
+
+
+
